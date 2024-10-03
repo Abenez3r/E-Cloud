@@ -1,0 +1,106 @@
+/* Styles for the Login Component of E-cloud */
+
+/* Container styling */
+.login-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Form styling */
+  .login-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Form group styling */
+  .login-form-group {
+    margin-bottom: 15px;
+  }
+  
+  /* Input fields styling */
+  .login-input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+  }
+  
+  /* Input focus state */
+  .login-input:focus {
+    border-color: #4a6fa5; /* Primary color */
+    outline: none;
+  }
+  
+  /* Label styling */
+  .login-label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333333;
+  }
+  
+  /* Button styling */
+  .login-button {
+    padding: 10px;
+    background-color: #4a6fa5; /* Primary color */
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Button hover effect */
+  .login-button:hover {
+    background-color: #3b5a7d; /* Darker shade of primary color */
+  }
+  
+  /* Disabled button state */
+  .login-button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+  }
+  
+  /* Spinner styling */
+  .login-spinner {
+    margin-right: 10px;
+  }
+  
+  /* Link styling */
+  .login-link {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    color: #166088; /* Link color */
+    text-decoration: underline;
+  }
+  
+  /* Error message styling */
+  .login-error {
+    color: red;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  /* Success message styling */
+  .login-success {
+    color: green;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  /* Responsive styling */
+  @media (max-width: 480px) {
+    .login-container {
+      padding: 10px;
+    }
+  
+    .login-button {
+      font-size: 16px;
+    }
+  }
+  

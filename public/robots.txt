@@ -1,0 +1,9 @@
+# For guidelines and standards, visit:
+# https://www.robotstxt.org/robotstxt.html
+
+# Directive indicating that the following rules apply to all web crawlers
+User-agent: *
+
+# Directive specifying that no pages are disallowed from crawling
+# Leaving 'Disallow' blank means all content is accessible
+Disallow:

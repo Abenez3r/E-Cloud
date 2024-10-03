@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta Tags -->
+    <meta charset="utf-8" />
+    <!-- Responsive viewport for mobile devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Description of the web application -->
+    <meta name="description" content="E-cloud: A simple file sharing app created using React." />
+    <!-- Theme color for mobile browsers -->
+    <meta name="theme-color" content="#4a6fa5" />
+    <!-- Author of the website -->
+    <meta name="author" content="Your Name or Company" />
+    <!-- Keywords for SEO -->
+    <meta name="keywords" content="E-cloud, React, File Sharing, Web Development" />
+
+    <!-- Title -->
+    <title>E-cloud</title>
+
+    <!-- Favicon and Apple Touch Icon -->
+    <!-- Favicon for browsers -->
+    <link rel="icon" href="%PUBLIC_URL%/IMG_1972.jpg" />
+    <!-- Icon for Apple devices -->
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+
+    <!-- Webfonts -->
+    <!-- Preconnect for improved loading performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Google Fonts (Roboto) -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+
+    <!-- Stylesheets -->
+    <!-- Bootstrap CSS from CDN (Latest Version) -->
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+        integrity="sha384-... (new integrity hash) ..."
+        crossorigin="anonymous" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="%PUBLIC_URL%/index.css" />
+
+    <!-- Manifest File -->
+    <!-- Provides metadata when your web app is installed on a user's device -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" crossorigin="use-credentials" />
+
+    <!-- Analytics -->
+    <!-- Example: Google Analytics -->
+    <!-- Replace 'G-XXXXXXX' with your actual Google Analytics Measurement ID -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-XXXXXXX');
+    </script>
+
+    <!-- Notes:
+        - %PUBLIC_URL% will be replaced with the URL of the 'public' folder during the build.
+        - Only files inside the 'public' folder can be referenced from the HTML.
+        - For client-side routing and non-root public URLs, use '%PUBLIC_URL%/favicon.ico' instead of '/favicon.ico'.
+        - Learn how to configure a non-root public URL by running 'npm run build'.
+    -->
+</head>
+
+<body>
+    <!-- NoScript Message -->
+    <!-- Displayed if JavaScript is disabled in the user's browser -->
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+
+    <!-- Root Div -->
+    <!-- The React app will be mounted into this div -->
+    <div id="root"></div>
+
+    <!-- Scripts -->
+    <!-- The build process will automatically inject the necessary scripts here -->
+
+    <!-- Notes:
+        - This HTML file is a template.
+        - Opening it directly in the browser will display an empty page.
+        - You can add webfonts, meta tags, or analytics to this file.
+        - The build step will place the bundled scripts into the <body> tag.
+        - To start development, run 'npm start' or 'yarn start'.
+        - To create a production bundle, use 'npm run build' or 'yarn build'.
+    -->
+</body>
+
+</html>

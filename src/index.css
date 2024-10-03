@@ -1,0 +1,111 @@
+/* Global Styles for E-cloud Application */
+
+/* Reset margins and paddings for all elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set default font family and background for the body */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #ffffff;
+  color: #333333;
+}
+
+/* Default link styles */
+a {
+  text-decoration: none;
+  color: #166088; /* Primary link color */
+}
+
+/* Headings styles */
+h1, h2, h3, h4, h5, h6 {
+  color: #4a6fa5; /* Primary heading color */
+}
+
+/* Button styles */
+button {
+  cursor: pointer;
+  font-family: inherit;
+}
+
+/* Input and textarea styles */
+input, textarea {
+  font-family: inherit;
+}
+
+/* Container class for consistent layout */
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* Utility Classes */
+
+/* Flex Center: centers content both vertically and horizontally */
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Text Center: centers text horizontally */
+.text-center {
+  text-align: center;
+}
+
+/* Background color classes */
+
+/* Primary background color with white text */
+.bg-primary {
+  background-color: #4a6fa5;
+  color: #ffffff;
+}
+
+/* Secondary background color with white text */
+.bg-secondary {
+  background-color: #c0d6df;
+  color: #ffffff;
+}
+
+/* Responsive Media Queries */
+
+/* Adjust container width for mobile devices */
+@media (max-width: 767px) {
+  .container {
+    width: 95%;
+  }
+}
+
+/* Fade Animations for React Transition Group */
+.fade-enter {
+  opacity: 0.01;
+}
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+.fade-exit {
+  opacity: 1;
+}
+.fade-exit-active {
+  opacity: 0.01;
+  transition: opacity 500ms ease-in;
+}
+
+/* Additional Global Styles */
+/* Add any additional global styles below this line */
+
+/* Style for error messages */
+.error-message {
+  color: red;
+  font-weight: bold;
+}
+
+/* Style for success messages */
+.success-message {
+  color: green;
+  font-weight: bold;
+}
